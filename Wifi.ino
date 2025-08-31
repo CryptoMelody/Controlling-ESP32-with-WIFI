@@ -1,8 +1,8 @@
 #include <WiFi.h>
 
 // Замените на свой идентификатор и пароль
-const char* ssid = "Domolink_637688_R";
-const char* password = "JUt9jcRL";
+const char* ssid = "xxxxxx";
+const char* password = "xxxxx";
 
 // Номер порта для сервера
 WiFiServer server(80);
@@ -127,4 +127,5 @@ void loop() {
     Serial.println("Client disconnected.");
     Serial.println("");
   }
+
 }
